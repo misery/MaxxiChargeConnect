@@ -17,10 +17,10 @@ Verwendete Bibliotheken:
 
 import sys
 from pathlib import Path
-from unittest.mock import MagicMock, patch
+from unittest.mock import MagicMock
 
 import pytest
-from homeassistant.const import CONF_WEBHOOK_ID, EntityCategory
+from homeassistant.const import EntityCategory
 
 from custom_components.maxxi_charge_connect.const import DOMAIN
 from custom_components.maxxi_charge_connect.devices.device_id import DeviceId

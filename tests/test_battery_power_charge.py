@@ -7,9 +7,8 @@ from homeassistant.components.sensor import (
     SensorDeviceClass,
     SensorStateClass,
 )
-from homeassistant.const import CONF_WEBHOOK_ID, UnitOfPower
+from homeassistant.const import UnitOfPower
 
-from custom_components.maxxi_charge_connect.const import DOMAIN
 from custom_components.maxxi_charge_connect.devices.battery_power_charge import (
     BatteryPowerCharge,
 )

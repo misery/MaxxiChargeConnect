@@ -1,6 +1,6 @@
 """Tests für die BatterySoESensor Entity im MaxxiChargeConnect Integration."""
 
-from unittest.mock import AsyncMock, MagicMock, patch
+from unittest.mock import AsyncMock, MagicMock
 
 import pytest
 from homeassistant.const import CONF_WEBHOOK_ID, UnitOfEnergy

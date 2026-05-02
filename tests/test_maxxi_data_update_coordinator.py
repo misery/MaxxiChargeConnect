@@ -1,8 +1,7 @@
 """Tests für MaxxiDataUpdateCoordinator."""
 
-from unittest.mock import AsyncMock, MagicMock, patch
+from unittest.mock import MagicMock, patch
 
-import aiohttp
 import pytest
 from bs4 import BeautifulSoup
 

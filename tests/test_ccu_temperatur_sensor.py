@@ -1,6 +1,6 @@
 """Tests für die CCUTemperaturSensor Entity im MaxxiChargeConnect Integration."""
 
-from unittest.mock import AsyncMock, MagicMock, patch
+from unittest.mock import MagicMock
 
 import pytest
 from homeassistant.components.sensor import SensorDeviceClass, SensorStateClass

@@ -3,7 +3,7 @@
 from unittest.mock import AsyncMock, MagicMock, patch
 
 import pytest
-from aiohttp import ClientConnectorError, web
+from aiohttp import ClientConnectorError
 
 from custom_components.maxxi_charge_connect.const import (
     CONF_DEVICE_ID,
