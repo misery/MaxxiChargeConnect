@@ -6,10 +6,10 @@ import aiohttp
 import pytest
 from bs4 import BeautifulSoup
 
+from custom_components.maxxi_charge_connect.const import NEIN, REQUIRED
 from custom_components.maxxi_charge_connect.http_scan.maxxi_data_update_coordinator import (
     MaxxiDataUpdateCoordinator,
 )
-from custom_components.maxxi_charge_connect.const import REQUIRED, NEIN
 
 
 @pytest.fixture
